@@ -10,7 +10,7 @@ body{
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: #f2f2f2;
+  background: #c8d0e3;
   position: relative;
 }
 body::before{
@@ -159,19 +159,35 @@ input[type="radio"]{
   }
 }
 .o{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Signika', sans-serif;
-color:#FF676D;
-margin-left:40px;
+color:#02421a;
+margin-left:10px;
+
+border-radius:10px;
+line-height:50px;
+text-align:center;
+width:auto;
 
 }
+.o:hover{
+color:black;
+}
 .b{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Signika', sans-serif;
-color:black;
-margin-left:40px;
+color: black;
+margin-left:10px;
+
+border-radius:10px;
+line-height:50px;
+text-align:center;
+width:auto;
+}
+.b:hover{
+color:#02421a;
 }
 .job a{
     color:#FF676D;
